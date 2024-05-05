@@ -1,0 +1,70 @@
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.FormInput {
+    margin-bottom: 0.25rem;
+}
+
+.FormInput label {
+    display: block;
+    font-size: 0.88rem;
+}
+
+.FormInput input {
+    box-sizing: border-box;
+    height: 1.5rem;
+    width: 100%;
+}
+
+.displayShoppingList {
+    display: grid;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.displayListItem {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.ListItem {
+    padding: 8px 14px;
+    background-color: #191d23;
+    border: 1px solid #EEEEEE;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ListItem ._Info {
+    margin-bottom: 0.7rem;
+}
+
+.ListItem ._Info ._Id span {
+    display: block;
+    text-align: end;
+    color: #36393d;
+}
+
+.ListItem ._Info ._Data {
+    margin-bottom: 0.3rem;
+}
+
+.ListItem ._Info ._Data ._Value input {
+    outline: none;
+}
+
+.inputError {
+    border: 2px solid red;
+    background-color: orangered;
+}
